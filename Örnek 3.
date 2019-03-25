@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+
+
+int main()
+ {
+    int arr[5];
+    int *ptr;
+    
+    printf("sizeof(array) : %d\n", sizeof(arr));
+    printf("sizeof(ptr) : %d\n", sizeof(ptr));
+    
+return 0;
+}
